@@ -37,6 +37,10 @@ android {
 
 dependencies {
 
+    // dependência para aceder ao Open Street Maps
+    // implementation ("org.osmdroid:osmdroid-android:6.1.10")
+    implementation ("org.osmdroid:osmdroid-android:6.1.10")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
